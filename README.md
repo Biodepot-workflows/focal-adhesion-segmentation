@@ -47,12 +47,12 @@ Fiji can be started from Bwb and used as a standalone app on your laptop or on t
 3. Enter any optional parameters (starting macros or scripts, extra plugins directory etc) and then click on the start button on the bottom left hand corner.
 4. Fiji will launch.
 
-### 4	Loading the workflows
+### 4	Loading the workflow
 
 The demo workflow is included with the Bwb imaging container image under the /workflow directory. 
 
 1. From the Bwb menu bar, select `File > Load Workflow`
-2. Using the file navigator, navigate to /workflow (note the beginning "/") and choose the workflows from that directory to load.
+2. Using the file navigator, navigate to /workflow (note the beginning "/") and choose the workflow from that directory to load.
 
 ### 5	How to use custom files, saving results and modified workflows
 
