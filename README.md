@@ -2,6 +2,8 @@
 
 For more information about how to use GitPod, click this [LINK](GITPOD.md).
 
+For more information on how to use Bwb, click this [LINK](https://biodepot.github.io/training/).
+
 # Image analysis with Bwb
 
 This repository demonstrates how the Biodepot-workflow-builder (Bwb) can be used for portable and reproducible image analysis on a laptop or on a cloud server. We include the Dockerfile for the biodepot/bwb:imaging__latest docker image and several workflows for
