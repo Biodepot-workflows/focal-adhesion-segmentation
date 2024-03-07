@@ -18,7 +18,7 @@ class OWjupyter_base(OWBwBWidget):
     icon = getIconName(__file__,"jupyter_image.png")
     want_main_area = False
     docker_image_name = "biodepot/jupyter"
-    docker_image_tag = "6.5.2-bioc-3.16-r-4.2.2__bookworm-slim__fbb56450__7dec180a__36656509"
+    docker_image_tag = "5.6.0__ubuntu-18.04__firefox-61.0.1__081318"
     inputs = [("InputDir",str,"handleInputsInputDir"),("outlineTrigger",str,"handleInputsoutlineTrigger"),("startingNotebook",str,"handleInputsstartingNotebook"),("segmentTrigger",str,"handleInputssegmentTrigger"),("timeout",str,"handleInputstimeout")]
     outputs = [("OutputDir",str),("outputNotebook",str)]
     pset=functools.partial(settings.Setting,schema_only=True)
