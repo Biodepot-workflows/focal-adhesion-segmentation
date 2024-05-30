@@ -1,0 +1,16 @@
+name: Trigger launcher-selection
+on: [push]
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger launcer-selection repo to update.
+      - run: |
+          curl -L \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
+            https://api.github.com/repos/Biodepot-workflows/launcher-selection/dispatches \
+            -d "{\"event_type\": \"trigger-workflow\"}"
