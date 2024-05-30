@@ -7,7 +7,7 @@ jobs:
 
     steps:
       - name: Trigger launcer-selection repo to update.
-      - run: |
+        run: |
           curl -L \
             -X POST \
             -H "Accept: application/vnd.github+json" \
